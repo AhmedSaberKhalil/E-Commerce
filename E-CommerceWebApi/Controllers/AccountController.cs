@@ -1,11 +1,14 @@
 ﻿using E_CommerceWebApi.Data;
 using E_CommerceWebApi.DTO.DtoAuthentication;
+using E_CommerceWebApi.Models;
 using E_CommerceWebApi.Repository;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.WebUtilities;
+using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
+using Newtonsoft.Json.Linq;
 using System.IdentityModel.Tokens.Jwt;
 using System.Net;
 using System.Security.Claims;
@@ -21,14 +24,17 @@ namespace E_CommerceWebApi.Controllers
 		private readonly SignInManager<ApplicationUser> signInManager;
 		private readonly IConfiguration configuration;
 		private readonly IEmailService emailService;
+        private readonly IOptions<JwtSettings> _options;
 
-		public AccountController(UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager, IConfiguration configuration, IEmailService emailService)
+        public AccountController(UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager,
+			IConfiguration configuration, IEmailService emailService, IOptions<JwtSettings> options)
         {
 			this.userManager = userManager;
 			this.signInManager = signInManager;
 			this.configuration = configuration;
 			this.emailService = emailService;
-		}
+            this._options = options;
+        }
         [HttpPost("Register")] 
 		public async Task<IActionResult> Register(UserRegisterationDto registerationDto)
 		{
@@ -82,35 +88,40 @@ namespace E_CommerceWebApi.Controllers
 						}
 
 						// Key To Pass To signingCredentials
-						SecurityKey securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["JWT:Secret"]));
-						// signingCredentials 
-						SigningCredentials signincred = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
+						SecurityKey securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_options.Value.Secret)); // configuration["JWT:Secret"]
+                          // signingCredentials 
+                        SigningCredentials signincred = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
 
 						// create Token  in 2 steps
 
 						// 1- represent Token
 						// Json الداتا هنا بتتبعت
 						JwtSecurityToken myToken = new JwtSecurityToken(
-							issuer: configuration["JWT:ValidIssuer"],     // url web api (Provider)
-							audience: configuration["JWT:ValiedAudiance"],  // url consumer angular
+							issuer: _options.Value.ValidIssuer,//configuration["JWT:ValidIssuer"],     // url web api (Provider)
+							audience: _options.Value.ValiedAudiance,//configuration["JWT:ValiedAudiance"],  // url consumer angular
 							claims: claims,
 							expires: DateTime.UtcNow.AddHours(1),
 							signingCredentials: signincred
 
-							);
+							); ; ;
+                        // Generate and set password reset token
+                        var resetToken = await userManager.GeneratePasswordResetTokenAsync(user);
+                        await userManager.SetAuthenticationTokenAsync(user, "ResetPassword", "ResetPasswordToken", resetToken);
+						// save user info to AspNetUserLogins
+                        await userManager.AddLoginAsync(user, new UserLoginInfo("Identity", user.Id, user.UserName));
 
-						// 2- Create Token
-						return Ok(new
+
+                        // 2- Create Token
+                        return Ok(new
 						{
 
 							token = new JwtSecurityTokenHandler().WriteToken(myToken),
 							expiration = myToken.ValidTo
-						});
-
-
-					}
-				}
-				return Unauthorized();
+                        });
+                    }
+                  
+                }
+                return Unauthorized();
 
 			}
 			return Unauthorized();

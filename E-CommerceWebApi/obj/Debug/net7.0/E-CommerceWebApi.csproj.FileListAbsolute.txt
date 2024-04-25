@@ -90,3 +90,4 @@ D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\ne
 D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Security.Cryptography.Pkcs.dll
 D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\AspNetCoreRateLimit.dll
 D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\Newtonsoft.Json.dll
+D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\obj\Debug\net7.0\E-CommerceWebApi.sourcelink.json
