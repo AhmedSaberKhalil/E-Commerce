@@ -81,7 +81,7 @@ namespace E_CommerceWebApi
             var connectionString =
                 $"Server={host};Port=3306;Database={db};User Id={user};Password={pass};";
 
-            builder.Services.AddDbContext<AppDbContext>(options =>
+            builder.Services.AddDbContext<ECEntity>(options =>
                 options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
 
 
@@ -155,7 +155,7 @@ namespace E_CommerceWebApi
             if (args.Contains("migrate"))
             {
                 using var scope = app.Services.CreateScope();
-                var dbContext = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+                var dbContext = scope.ServiceProvider.GetRequiredService<ECEntity>();
                 dbContext.Database.Migrate();
                 Console.WriteLine("Database Migration Applied Successfully.");
                 return; 
