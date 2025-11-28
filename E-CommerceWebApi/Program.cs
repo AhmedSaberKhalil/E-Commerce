@@ -86,10 +86,10 @@ namespace E_CommerceWebApi
 
 
 
-            builder.Services.AddDbContext<ECEntity>(options => {
+   //         builder.Services.AddDbContext<ECEntity>(options => {
 
-				options.UseSqlServer(builder.Configuration.GetConnectionString("cs"));
-			});
+			//	options.UseSqlServer(builder.Configuration.GetConnectionString("cs"));
+			//});
 			builder.Services.AddScoped<IProductRepository, E_CommerceWebApi.Service.ProductService>();
 	
 			builder.Services.AddScoped<IRepository<Models.Review>, Repository<Models.Review>>();
