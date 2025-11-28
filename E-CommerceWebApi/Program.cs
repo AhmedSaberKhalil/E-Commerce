@@ -4,6 +4,9 @@ using E_CommerceWebApi.Data;
 using E_CommerceWebApi.Models;
 using E_CommerceWebApi.Repository;
 using E_CommerceWebApi.Service;
+using E_CommerceWebApi.Service.AuthenticationService;
+using E_CommerceWebApi.StripePaymentService;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.RateLimiting;
@@ -11,6 +14,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using Stripe;
 using System.Security.Principal;
 using System.Text;
 using System.Threading.RateLimiting;
@@ -25,22 +29,22 @@ namespace E_CommerceWebApi
 
 			// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 			builder.Services.AddEndpointsApiExplorer();
-			//builder.Services.AddSwaggerGen();
+			builder.Services.AddSwaggerGen();
 			builder.Services.AddSwaggerGen(c =>
 			{
 				c.SwaggerDoc("v1", new OpenApiInfo { Title = "Demo", Version = "v1" });
 			});
 			builder.Services.AddSwaggerGen(swagger =>
 			{
-				//This is to generate the Default UI of Swagger Documentation    
+				//Thisï¿½isï¿½toï¿½generateï¿½theï¿½Defaultï¿½UIï¿½ofï¿½Swaggerï¿½Documentationï¿½ï¿½ï¿½ï¿½
 				swagger.SwaggerDoc("v2", new OpenApiInfo
 				{
 					Version = "v1",
-					Title = "ASP.NET 7 Web API",
+					Title = "ASP.NETï¿½7ï¿½Webï¿½API",
 					Description = " ITI Projrcy"
 				});
 
-				// To Enable authorization using Swagger (JWT)    
+				//ï¿½Toï¿½Enableï¿½authorizationï¿½usingï¿½Swaggerï¿½(JWT)ï¿½ï¿½ï¿½ï¿½
 				swagger.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme()
 				{
 					Name = "Authorization",
@@ -48,7 +52,7 @@ namespace E_CommerceWebApi
 					Scheme = "Bearer",
 					BearerFormat = "JWT",
 					In = ParameterLocation.Header,
-					Description = "Enter 'Bearer' [space] and then your valid token in the text input below.\r\n\r\nExample: \"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9\"",
+					Description = "Enterï¿½'Bearer'ï¿½[space]ï¿½andï¿½thenï¿½yourï¿½validï¿½tokenï¿½inï¿½theï¿½textï¿½inputï¿½below.\r\n\r\nExample:ï¿½\"Bearerï¿½eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9\"",
 				});
 				swagger.AddSecurityRequirement(new OpenApiSecurityRequirement
 				{
@@ -68,17 +72,32 @@ namespace E_CommerceWebApi
 			// Add services to the container.
 
 			builder.Services.AddControllers();
+            // connect to RDS db
+            var host = Environment.GetEnvironmentVariable("DB_HOST");
+            var user = Environment.GetEnvironmentVariable("DB_USER");
+            var pass = Environment.GetEnvironmentVariable("DB_PASS");
+            var db = Environment.GetEnvironmentVariable("DB_NAME");
 
-			builder.Services.AddDbContext<ECEntity>(options => {
+            var connectionString =
+                $"Server={host};Port=3306;Database={db};User Id={user};Password={pass};";
+
+            builder.Services.AddDbContext<AppDbContext>(options =>
+                options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
+
+
+
+            builder.Services.AddDbContext<ECEntity>(options => {
 
 				options.UseSqlServer(builder.Configuration.GetConnectionString("cs"));
 			});
-			builder.Services.AddScoped<IProductRepository, ProductService>();
+			builder.Services.AddScoped<IProductRepository, E_CommerceWebApi.Service.ProductService>();
 	
-			builder.Services.AddScoped<IRepository<Review>, Repository<Review>>();
+			builder.Services.AddScoped<IRepository<Models.Review>, Repository<Models.Review>>();
 			builder.Services.AddScoped<IRepository<CartItem>, Repository<CartItem>>();
+			builder.Services.AddScoped<IPaymentService, PaymentService>();
+            StripeConfiguration.ApiKey = builder.Configuration["Stripe:SecretKey"];
 
-			builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options =>
+            builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options =>
 			{
 				options.Tokens.PasswordResetTokenProvider = TokenOptions.DefaultProvider;
 			})
@@ -89,7 +108,9 @@ namespace E_CommerceWebApi
 			builder.Services.AddScoped<IEmailService, EmailService>();
 			builder.Services.Configure<EmailSettings>(builder.Configuration.GetSection("EmailSettings"));
 			builder.Services.Configure<JwtSettings>(builder.Configuration.GetSection("JWT"));
-
+            builder.Services.AddScoped<IAuthService, AuthService>();
+            builder.Services.AddScoped<IUserService, UserService>();
+            IServiceCollection serviceCollection = builder.Services.AddScoped<ITokenService, Service.AuthenticationService.TokenService>();
 
             //[Authoriz] used JWT Token in Chck Authantiaction
             builder.Services.AddAuthentication(options =>
@@ -130,12 +151,23 @@ namespace E_CommerceWebApi
 
 			var app = builder.Build();
 
-			// Configure the HTTP request pipeline.
-			if (app.Environment.IsDevelopment())
-			{
-				app.UseSwagger();
+            // Add migrate command support (initContainer will call this)
+            if (args.Contains("migrate"))
+            {
+                using var scope = app.Services.CreateScope();
+                var dbContext = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+                dbContext.Database.Migrate();
+                Console.WriteLine("Database Migration Applied Successfully.");
+                return; 
+            }
+
+
+            // Configure the HTTP request pipeline.
+            //	if (app.Environment.IsDevelopment())
+            //	{
+            app.UseSwagger();
 				app.UseSwaggerUI();
-			}
+			//}
 			// Configure rate limiting middleware
 			app.UseRateLimiter();
 
