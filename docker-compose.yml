@@ -1,0 +1,41 @@
+# containers section 
+services:
+# first service
+  webapplication:
+    build:  
+      context: .
+      dockerfile: Dockerfile
+
+    ports:
+      - "8090:80"
+    container_name: ecommerce-api
+    networks:
+      - net9
+    depends_on:
+     - sqlserver
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    restart: on-failure
+
+# second service
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: ecommerce-db
+    networks:
+      - net9
+    hostname: sqlserver
+    volumes:
+      - sqldata:/var/opt/mssql
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: "Password123!"
+    ports:
+      - "1433:1433"
+  
+# Networks
+networks:
+  net9:
+
+# Volumes:
+volumes:
+  sqldata:

@@ -1,0 +1,479 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Dot_NET_Core\\Asp.Net Core Web API\\E-CommerceWebApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B03EB94E-B23E-4A45-8FEF-DF87C2BD1129}|E-CommerceWebApi\\E-CommerceWebApi.csproj|d:\\dot_net_core\\asp.net core web api\\e-commercewebapi\\e-commercewebapi\\e-commercewebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B03EB94E-B23E-4A45-8FEF-DF87C2BD1129}|E-CommerceWebApi\\E-CommerceWebApi.csproj|solutionrelative:e-commercewebapi\\e-commercewebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B03EB94E-B23E-4A45-8FEF-DF87C2BD1129}|E-CommerceWebApi\\E-CommerceWebApi.csproj|d:\\dot_net_core\\asp.net core web api\\e-commercewebapi\\e-commercewebapi\\e-commercewebapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{B03EB94E-B23E-4A45-8FEF-DF87C2BD1129}|E-CommerceWebApi\\E-CommerceWebApi.csproj|solutionrelative:e-commercewebapi\\e-commercewebapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B03EB94E-B23E-4A45-8FEF-DF87C2BD1129}|E-CommerceWebApi\\E-CommerceWebApi.csproj|d:\\dot_net_core\\asp.net core web api\\e-commercewebapi\\e-commercewebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B03EB94E-B23E-4A45-8FEF-DF87C2BD1129}|E-CommerceWebApi\\E-CommerceWebApi.csproj|solutionrelative:e-commercewebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B03EB94E-B23E-4A45-8FEF-DF87C2BD1129}|E-CommerceWebApi\\E-CommerceWebApi.csproj|d:\\dot_net_core\\asp.net core web api\\e-commercewebapi\\e-commercewebapi\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B03EB94E-B23E-4A45-8FEF-DF87C2BD1129}|E-CommerceWebApi\\E-CommerceWebApi.csproj|solutionrelative:e-commercewebapi\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B03EB94E-B23E-4A45-8FEF-DF87C2BD1129}|E-CommerceWebApi\\E-CommerceWebApi.csproj|d:\\dot_net_core\\asp.net core web api\\e-commercewebapi\\e-commercewebapi\\service\\authenticationservice\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B03EB94E-B23E-4A45-8FEF-DF87C2BD1129}|E-CommerceWebApi\\E-CommerceWebApi.csproj|solutionrelative:e-commercewebapi\\service\\authenticationservice\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B03EB94E-B23E-4A45-8FEF-DF87C2BD1129}|E-CommerceWebApi\\E-CommerceWebApi.csproj|d:\\dot_net_core\\asp.net core web api\\e-commercewebapi\\e-commercewebapi\\service\\authenticationservice\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B03EB94E-B23E-4A45-8FEF-DF87C2BD1129}|E-CommerceWebApi\\E-CommerceWebApi.csproj|solutionrelative:e-commercewebapi\\service\\authenticationservice\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B03EB94E-B23E-4A45-8FEF-DF87C2BD1129}|E-CommerceWebApi\\E-CommerceWebApi.csproj|d:\\dot_net_core\\asp.net core web api\\e-commercewebapi\\e-commercewebapi\\service\\authenticationservice\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B03EB94E-B23E-4A45-8FEF-DF87C2BD1129}|E-CommerceWebApi\\E-CommerceWebApi.csproj|solutionrelative:e-commercewebapi\\service\\authenticationservice\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B03EB94E-B23E-4A45-8FEF-DF87C2BD1129}|E-CommerceWebApi\\E-CommerceWebApi.csproj|d:\\dot_net_core\\asp.net core web api\\e-commercewebapi\\e-commercewebapi\\service\\authenticationservice\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B03EB94E-B23E-4A45-8FEF-DF87C2BD1129}|E-CommerceWebApi\\E-CommerceWebApi.csproj|solutionrelative:e-commercewebapi\\service\\authenticationservice\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B03EB94E-B23E-4A45-8FEF-DF87C2BD1129}|E-CommerceWebApi\\E-CommerceWebApi.csproj|d:\\dot_net_core\\asp.net core web api\\e-commercewebapi\\e-commercewebapi\\service\\authenticationservice\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B03EB94E-B23E-4A45-8FEF-DF87C2BD1129}|E-CommerceWebApi\\E-CommerceWebApi.csproj|solutionrelative:e-commercewebapi\\service\\authenticationservice\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B03EB94E-B23E-4A45-8FEF-DF87C2BD1129}|E-CommerceWebApi\\E-CommerceWebApi.csproj|d:\\dot_net_core\\asp.net core web api\\e-commercewebapi\\e-commercewebapi\\service\\authenticationservice\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B03EB94E-B23E-4A45-8FEF-DF87C2BD1129}|E-CommerceWebApi\\E-CommerceWebApi.csproj|solutionrelative:e-commercewebapi\\service\\authenticationservice\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{344A779A-4DBD-4831-825C-70923131B13D}|E-CommerceWebApi.Tests\\E-CommerceWebApi.Tests.csproj|d:\\dot_net_core\\asp.net core web api\\e-commercewebapi\\e-commercewebapi.tests\\e-commercewebapi.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{344A779A-4DBD-4831-825C-70923131B13D}|E-CommerceWebApi.Tests\\E-CommerceWebApi.Tests.csproj|solutionrelative:e-commercewebapi.tests\\e-commercewebapi.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B03EB94E-B23E-4A45-8FEF-DF87C2BD1129}|E-CommerceWebApi\\E-CommerceWebApi.csproj|d:\\dot_net_core\\asp.net core web api\\e-commercewebapi\\e-commercewebapi\\stripepaymentservice\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B03EB94E-B23E-4A45-8FEF-DF87C2BD1129}|E-CommerceWebApi\\E-CommerceWebApi.csproj|solutionrelative:e-commercewebapi\\stripepaymentservice\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B03EB94E-B23E-4A45-8FEF-DF87C2BD1129}|E-CommerceWebApi\\E-CommerceWebApi.csproj|d:\\dot_net_core\\asp.net core web api\\e-commercewebapi\\e-commercewebapi\\stripepaymentservice\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B03EB94E-B23E-4A45-8FEF-DF87C2BD1129}|E-CommerceWebApi\\E-CommerceWebApi.csproj|solutionrelative:e-commercewebapi\\stripepaymentservice\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Dot_NET_Core\\Asp.Net Core Web API\\E-CommerceWebApi\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B03EB94E-B23E-4A45-8FEF-DF87C2BD1129}|E-CommerceWebApi\\E-CommerceWebApi.csproj|d:\\dot_net_core\\asp.net core web api\\e-commercewebapi\\e-commercewebapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B03EB94E-B23E-4A45-8FEF-DF87C2BD1129}|E-CommerceWebApi\\E-CommerceWebApi.csproj|solutionrelative:e-commercewebapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B03EB94E-B23E-4A45-8FEF-DF87C2BD1129}|E-CommerceWebApi\\E-CommerceWebApi.csproj|d:\\dot_net_core\\asp.net core web api\\e-commercewebapi\\e-commercewebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B03EB94E-B23E-4A45-8FEF-DF87C2BD1129}|E-CommerceWebApi\\E-CommerceWebApi.csproj|solutionrelative:e-commercewebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B03EB94E-B23E-4A45-8FEF-DF87C2BD1129}|E-CommerceWebApi\\E-CommerceWebApi.csproj|d:\\dot_net_core\\asp.net core web api\\e-commercewebapi\\e-commercewebapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B03EB94E-B23E-4A45-8FEF-DF87C2BD1129}|E-CommerceWebApi\\E-CommerceWebApi.csproj|solutionrelative:e-commercewebapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B03EB94E-B23E-4A45-8FEF-DF87C2BD1129}|E-CommerceWebApi\\E-CommerceWebApi.csproj|d:\\dot_net_core\\asp.net core web api\\e-commercewebapi\\e-commercewebapi\\dto\\dtomodels\\productnamewithallreviews.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B03EB94E-B23E-4A45-8FEF-DF87C2BD1129}|E-CommerceWebApi\\E-CommerceWebApi.csproj|solutionrelative:e-commercewebapi\\dto\\dtomodels\\productnamewithallreviews.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B03EB94E-B23E-4A45-8FEF-DF87C2BD1129}|E-CommerceWebApi\\E-CommerceWebApi.csproj|d:\\dot_net_core\\asp.net core web api\\e-commercewebapi\\e-commercewebapi\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B03EB94E-B23E-4A45-8FEF-DF87C2BD1129}|E-CommerceWebApi\\E-CommerceWebApi.csproj|solutionrelative:e-commercewebapi\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B03EB94E-B23E-4A45-8FEF-DF87C2BD1129}|E-CommerceWebApi\\E-CommerceWebApi.csproj|d:\\dot_net_core\\asp.net core web api\\e-commercewebapi\\e-commercewebapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B03EB94E-B23E-4A45-8FEF-DF87C2BD1129}|E-CommerceWebApi\\E-CommerceWebApi.csproj|solutionrelative:e-commercewebapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B03EB94E-B23E-4A45-8FEF-DF87C2BD1129}|E-CommerceWebApi\\E-CommerceWebApi.csproj|d:\\dot_net_core\\asp.net core web api\\e-commercewebapi\\e-commercewebapi\\service\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B03EB94E-B23E-4A45-8FEF-DF87C2BD1129}|E-CommerceWebApi\\E-CommerceWebApi.csproj|solutionrelative:e-commercewebapi\\service\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B03EB94E-B23E-4A45-8FEF-DF87C2BD1129}|E-CommerceWebApi\\E-CommerceWebApi.csproj|d:\\dot_net_core\\asp.net core web api\\e-commercewebapi\\e-commercewebapi\\repository\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B03EB94E-B23E-4A45-8FEF-DF87C2BD1129}|E-CommerceWebApi\\E-CommerceWebApi.csproj|solutionrelative:e-commercewebapi\\repository\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B03EB94E-B23E-4A45-8FEF-DF87C2BD1129}|E-CommerceWebApi\\E-CommerceWebApi.csproj|d:\\dot_net_core\\asp.net core web api\\e-commercewebapi\\e-commercewebapi\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B03EB94E-B23E-4A45-8FEF-DF87C2BD1129}|E-CommerceWebApi\\E-CommerceWebApi.csproj|solutionrelative:e-commercewebapi\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B03EB94E-B23E-4A45-8FEF-DF87C2BD1129}|E-CommerceWebApi\\E-CommerceWebApi.csproj|d:\\dot_net_core\\asp.net core web api\\e-commercewebapi\\e-commercewebapi\\data\\ecentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B03EB94E-B23E-4A45-8FEF-DF87C2BD1129}|E-CommerceWebApi\\E-CommerceWebApi.csproj|solutionrelative:e-commercewebapi\\data\\ecentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B03EB94E-B23E-4A45-8FEF-DF87C2BD1129}|E-CommerceWebApi\\E-CommerceWebApi.csproj|d:\\dot_net_core\\asp.net core web api\\e-commercewebapi\\e-commercewebapi\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B03EB94E-B23E-4A45-8FEF-DF87C2BD1129}|E-CommerceWebApi\\E-CommerceWebApi.csproj|solutionrelative:e-commercewebapi\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B03EB94E-B23E-4A45-8FEF-DF87C2BD1129}|E-CommerceWebApi\\E-CommerceWebApi.csproj|d:\\dot_net_core\\asp.net core web api\\e-commercewebapi\\e-commercewebapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B03EB94E-B23E-4A45-8FEF-DF87C2BD1129}|E-CommerceWebApi\\E-CommerceWebApi.csproj|solutionrelative:e-commercewebapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 239,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "D:\\Dot_NET_Core\\Asp.Net Core Web API\\E-CommerceWebApi\\E-CommerceWebApi\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "E-CommerceWebApi\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "D:\\Dot_NET_Core\\Asp.Net Core Web API\\E-CommerceWebApi\\E-CommerceWebApi\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "E-CommerceWebApi\\Controllers\\AuthenticationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T03:12:59.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Dot_NET_Core\\Asp.Net Core Web API\\E-CommerceWebApi\\E-CommerceWebApi\\Program.cs",
+              "RelativeDocumentMoniker": "E-CommerceWebApi\\Program.cs",
+              "ToolTip": "D:\\Dot_NET_Core\\Asp.Net Core Web API\\E-CommerceWebApi\\E-CommerceWebApi\\Program.cs",
+              "RelativeToolTip": "E-CommerceWebApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJ0AAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T02:59:27.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "E-CommerceWebApi",
+              "DocumentMoniker": "D:\\Dot_NET_Core\\Asp.Net Core Web API\\E-CommerceWebApi\\E-CommerceWebApi\\E-CommerceWebApi.csproj",
+              "RelativeDocumentMoniker": "E-CommerceWebApi\\E-CommerceWebApi.csproj",
+              "ToolTip": "D:\\Dot_NET_Core\\Asp.Net Core Web API\\E-CommerceWebApi\\E-CommerceWebApi\\E-CommerceWebApi.csproj",
+              "RelativeToolTip": "E-CommerceWebApi\\E-CommerceWebApi.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-28T03:49:15.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "E-CommerceWebApi.csproj",
+              "DocumentMoniker": "D:\\Dot_NET_Core\\Asp.Net Core Web API\\E-CommerceWebApi\\E-CommerceWebApi\\E-CommerceWebApi.csproj",
+              "RelativeDocumentMoniker": "E-CommerceWebApi\\E-CommerceWebApi.csproj",
+              "ToolTip": "D:\\Dot_NET_Core\\Asp.Net Core Web API\\E-CommerceWebApi\\E-CommerceWebApi\\E-CommerceWebApi.csproj",
+              "RelativeToolTip": "E-CommerceWebApi\\E-CommerceWebApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-28T23:02:25.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\Dot_NET_Core\\Asp.Net Core Web API\\E-CommerceWebApi\\E-CommerceWebApi\\Service\\AuthenticationService\\UserService.cs",
+              "RelativeDocumentMoniker": "E-CommerceWebApi\\Service\\AuthenticationService\\UserService.cs",
+              "ToolTip": "D:\\Dot_NET_Core\\Asp.Net Core Web API\\E-CommerceWebApi\\E-CommerceWebApi\\Service\\AuthenticationService\\UserService.cs",
+              "RelativeToolTip": "E-CommerceWebApi\\Service\\AuthenticationService\\UserService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T04:40:25.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "D:\\Dot_NET_Core\\Asp.Net Core Web API\\E-CommerceWebApi\\E-CommerceWebApi\\Service\\AuthenticationService\\TokenService.cs",
+              "RelativeDocumentMoniker": "E-CommerceWebApi\\Service\\AuthenticationService\\TokenService.cs",
+              "ToolTip": "D:\\Dot_NET_Core\\Asp.Net Core Web API\\E-CommerceWebApi\\E-CommerceWebApi\\Service\\AuthenticationService\\TokenService.cs",
+              "RelativeToolTip": "E-CommerceWebApi\\Service\\AuthenticationService\\TokenService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA+wBwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T04:11:15.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "D:\\Dot_NET_Core\\Asp.Net Core Web API\\E-CommerceWebApi\\E-CommerceWebApi\\Service\\AuthenticationService\\IUserService.cs",
+              "RelativeDocumentMoniker": "E-CommerceWebApi\\Service\\AuthenticationService\\IUserService.cs",
+              "ToolTip": "D:\\Dot_NET_Core\\Asp.Net Core Web API\\E-CommerceWebApi\\E-CommerceWebApi\\Service\\AuthenticationService\\IUserService.cs",
+              "RelativeToolTip": "E-CommerceWebApi\\Service\\AuthenticationService\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T03:55:50.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "D:\\Dot_NET_Core\\Asp.Net Core Web API\\E-CommerceWebApi\\E-CommerceWebApi\\Service\\AuthenticationService\\ITokenService.cs",
+              "RelativeDocumentMoniker": "E-CommerceWebApi\\Service\\AuthenticationService\\ITokenService.cs",
+              "ToolTip": "D:\\Dot_NET_Core\\Asp.Net Core Web API\\E-CommerceWebApi\\E-CommerceWebApi\\Service\\AuthenticationService\\ITokenService.cs",
+              "RelativeToolTip": "E-CommerceWebApi\\Service\\AuthenticationService\\ITokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T03:55:03.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "D:\\Dot_NET_Core\\Asp.Net Core Web API\\E-CommerceWebApi\\E-CommerceWebApi\\Service\\AuthenticationService\\IAuthService.cs",
+              "RelativeDocumentMoniker": "E-CommerceWebApi\\Service\\AuthenticationService\\IAuthService.cs",
+              "ToolTip": "D:\\Dot_NET_Core\\Asp.Net Core Web API\\E-CommerceWebApi\\E-CommerceWebApi\\Service\\AuthenticationService\\IAuthService.cs",
+              "RelativeToolTip": "E-CommerceWebApi\\Service\\AuthenticationService\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T03:49:50.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\Dot_NET_Core\\Asp.Net Core Web API\\E-CommerceWebApi\\E-CommerceWebApi\\Service\\AuthenticationService\\AuthService.cs",
+              "RelativeDocumentMoniker": "E-CommerceWebApi\\Service\\AuthenticationService\\AuthService.cs",
+              "ToolTip": "D:\\Dot_NET_Core\\Asp.Net Core Web API\\E-CommerceWebApi\\E-CommerceWebApi\\Service\\AuthenticationService\\AuthService.cs",
+              "RelativeToolTip": "E-CommerceWebApi\\Service\\AuthenticationService\\AuthService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T03:58:22.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "E-CommerceWebApi.Tests",
+              "DocumentMoniker": "D:\\Dot_NET_Core\\Asp.Net Core Web API\\E-CommerceWebApi\\E-CommerceWebApi.Tests\\E-CommerceWebApi.Tests.csproj",
+              "RelativeDocumentMoniker": "E-CommerceWebApi.Tests\\E-CommerceWebApi.Tests.csproj",
+              "ToolTip": "D:\\Dot_NET_Core\\Asp.Net Core Web API\\E-CommerceWebApi\\E-CommerceWebApi.Tests\\E-CommerceWebApi.Tests.csproj",
+              "RelativeToolTip": "E-CommerceWebApi.Tests\\E-CommerceWebApi.Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-28T03:49:22.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IPaymentService.cs",
+              "DocumentMoniker": "D:\\Dot_NET_Core\\Asp.Net Core Web API\\E-CommerceWebApi\\E-CommerceWebApi\\StripePaymentService\\IPaymentService.cs",
+              "RelativeDocumentMoniker": "E-CommerceWebApi\\StripePaymentService\\IPaymentService.cs",
+              "ToolTip": "D:\\Dot_NET_Core\\Asp.Net Core Web API\\E-CommerceWebApi\\E-CommerceWebApi\\StripePaymentService\\IPaymentService.cs",
+              "RelativeToolTip": "E-CommerceWebApi\\StripePaymentService\\IPaymentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T03:39:31.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PaymentService.cs",
+              "DocumentMoniker": "D:\\Dot_NET_Core\\Asp.Net Core Web API\\E-CommerceWebApi\\E-CommerceWebApi\\StripePaymentService\\PaymentService.cs",
+              "RelativeDocumentMoniker": "E-CommerceWebApi\\StripePaymentService\\PaymentService.cs",
+              "ToolTip": "D:\\Dot_NET_Core\\Asp.Net Core Web API\\E-CommerceWebApi\\E-CommerceWebApi\\StripePaymentService\\PaymentService.cs",
+              "RelativeToolTip": "E-CommerceWebApi\\StripePaymentService\\PaymentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T03:39:28.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "D:\\Dot_NET_Core\\Asp.Net Core Web API\\E-CommerceWebApi\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "D:\\Dot_NET_Core\\Asp.Net Core Web API\\E-CommerceWebApi\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-11-28T03:11:23.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\Dot_NET_Core\\Asp.Net Core Web API\\E-CommerceWebApi\\E-CommerceWebApi\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "E-CommerceWebApi\\appsettings.Development.json",
+              "ToolTip": "D:\\Dot_NET_Core\\Asp.Net Core Web API\\E-CommerceWebApi\\E-CommerceWebApi\\appsettings.Development.json",
+              "RelativeToolTip": "E-CommerceWebApi\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-28T01:23:33.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Dot_NET_Core\\Asp.Net Core Web API\\E-CommerceWebApi\\E-CommerceWebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "E-CommerceWebApi\\appsettings.json",
+              "ToolTip": "D:\\Dot_NET_Core\\Asp.Net Core Web API\\E-CommerceWebApi\\E-CommerceWebApi\\appsettings.json",
+              "RelativeToolTip": "E-CommerceWebApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-19T02:59:37.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\Dot_NET_Core\\Asp.Net Core Web API\\E-CommerceWebApi\\E-CommerceWebApi\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "E-CommerceWebApi\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\Dot_NET_Core\\Asp.Net Core Web API\\E-CommerceWebApi\\E-CommerceWebApi\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "E-CommerceWebApi\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T15:49:46.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ProductNameWithAllReviews.cs",
+              "DocumentMoniker": "D:\\Dot_NET_Core\\Asp.Net Core Web API\\E-CommerceWebApi\\E-CommerceWebApi\\DTO\\DtoModels\\ProductNameWithAllReviews.cs",
+              "RelativeDocumentMoniker": "E-CommerceWebApi\\DTO\\DtoModels\\ProductNameWithAllReviews.cs",
+              "ToolTip": "D:\\Dot_NET_Core\\Asp.Net Core Web API\\E-CommerceWebApi\\E-CommerceWebApi\\DTO\\DtoModels\\ProductNameWithAllReviews.cs",
+              "RelativeToolTip": "E-CommerceWebApi\\DTO\\DtoModels\\ProductNameWithAllReviews.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T15:49:36.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "D:\\Dot_NET_Core\\Asp.Net Core Web API\\E-CommerceWebApi\\E-CommerceWebApi\\Service\\ProductService.cs",
+              "RelativeDocumentMoniker": "E-CommerceWebApi\\Service\\ProductService.cs",
+              "ToolTip": "D:\\Dot_NET_Core\\Asp.Net Core Web API\\E-CommerceWebApi\\E-CommerceWebApi\\Service\\ProductService.cs",
+              "RelativeToolTip": "E-CommerceWebApi\\Service\\ProductService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAvwB0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T15:48:54.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\Dot_NET_Core\\Asp.Net Core Web API\\E-CommerceWebApi\\E-CommerceWebApi\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "E-CommerceWebApi\\Models\\Product.cs",
+              "ToolTip": "D:\\Dot_NET_Core\\Asp.Net Core Web API\\E-CommerceWebApi\\E-CommerceWebApi\\Models\\Product.cs",
+              "RelativeToolTip": "E-CommerceWebApi\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T22:48:19.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "D:\\Dot_NET_Core\\Asp.Net Core Web API\\E-CommerceWebApi\\E-CommerceWebApi\\Service\\Repository.cs",
+              "RelativeDocumentMoniker": "E-CommerceWebApi\\Service\\Repository.cs",
+              "ToolTip": "D:\\Dot_NET_Core\\Asp.Net Core Web API\\E-CommerceWebApi\\E-CommerceWebApi\\Service\\Repository.cs",
+              "RelativeToolTip": "E-CommerceWebApi\\Service\\Repository.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAIBQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T15:48:23.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "D:\\Dot_NET_Core\\Asp.Net Core Web API\\E-CommerceWebApi\\E-CommerceWebApi\\Repository\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "E-CommerceWebApi\\Repository\\IProductRepository.cs",
+              "ToolTip": "D:\\Dot_NET_Core\\Asp.Net Core Web API\\E-CommerceWebApi\\E-CommerceWebApi\\Repository\\IProductRepository.cs",
+              "RelativeToolTip": "E-CommerceWebApi\\Repository\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T15:47:54.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "D:\\Dot_NET_Core\\Asp.Net Core Web API\\E-CommerceWebApi\\E-CommerceWebApi\\Repository\\IRepository.cs",
+              "RelativeDocumentMoniker": "E-CommerceWebApi\\Repository\\IRepository.cs",
+              "ToolTip": "D:\\Dot_NET_Core\\Asp.Net Core Web API\\E-CommerceWebApi\\E-CommerceWebApi\\Repository\\IRepository.cs",
+              "RelativeToolTip": "E-CommerceWebApi\\Repository\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T15:47:44.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ECEntity.cs",
+              "DocumentMoniker": "D:\\Dot_NET_Core\\Asp.Net Core Web API\\E-CommerceWebApi\\E-CommerceWebApi\\Data\\ECEntity.cs",
+              "RelativeDocumentMoniker": "E-CommerceWebApi\\Data\\ECEntity.cs",
+              "ToolTip": "D:\\Dot_NET_Core\\Asp.Net Core Web API\\E-CommerceWebApi\\E-CommerceWebApi\\Data\\ECEntity.cs",
+              "RelativeToolTip": "E-CommerceWebApi\\Data\\ECEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T15:46:59.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "D:\\Dot_NET_Core\\Asp.Net Core Web API\\E-CommerceWebApi\\E-CommerceWebApi\\Data\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "E-CommerceWebApi\\Data\\ApplicationUser.cs",
+              "ToolTip": "D:\\Dot_NET_Core\\Asp.Net Core Web API\\E-CommerceWebApi\\E-CommerceWebApi\\Data\\ApplicationUser.cs",
+              "RelativeToolTip": "E-CommerceWebApi\\Data\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T15:46:50.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\Dot_NET_Core\\Asp.Net Core Web API\\E-CommerceWebApi\\E-CommerceWebApi\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "E-CommerceWebApi\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\Dot_NET_Core\\Asp.Net Core Web API\\E-CommerceWebApi\\E-CommerceWebApi\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "E-CommerceWebApi\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T23:02:52.637Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 161,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

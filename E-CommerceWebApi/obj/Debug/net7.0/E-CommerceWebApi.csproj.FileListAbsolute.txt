@@ -1,93 +1,188 @@
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\appsettings.Development.json
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\appsettings.json
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\E-CommerceWebApi.staticwebassets.runtime.json
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\E-CommerceWebApi.exe
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\E-CommerceWebApi.deps.json
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\E-CommerceWebApi.runtimeconfig.json
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\E-CommerceWebApi.dll
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\E-CommerceWebApi.pdb
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\Azure.Core.dll
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\Azure.Identity.dll
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\Humanizer.dll
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\Microsoft.Identity.Client.dll
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\Microsoft.OpenApi.dll
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\Mono.TextTemplating.dll
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\System.CodeDom.dll
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\System.Drawing.Common.dll
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\System.Memory.Data.dll
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\System.Runtime.Caching.dll
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\System.Security.Permissions.dll
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\System.Windows.Extensions.dll
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\obj\Debug\net7.0\E-CommerceWebApi.csproj.AssemblyReference.cache
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\obj\Debug\net7.0\E-CommerceWebApi.GeneratedMSBuildEditorConfig.editorconfig
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\obj\Debug\net7.0\E-CommerceWebApi.AssemblyInfoInputs.cache
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\obj\Debug\net7.0\E-CommerceWebApi.AssemblyInfo.cs
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\obj\Debug\net7.0\E-CommerceWebApi.csproj.CoreCompileInputs.cache
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\obj\Debug\net7.0\E-CommerceWebApi.MvcApplicationPartsAssemblyInfo.cs
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\obj\Debug\net7.0\E-CommerceWebApi.MvcApplicationPartsAssemblyInfo.cache
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\obj\Debug\net7.0\staticwebassets\msbuild.E-CommerceWebApi.Microsoft.AspNetCore.StaticWebAssets.props
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\obj\Debug\net7.0\staticwebassets\msbuild.build.E-CommerceWebApi.props
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.E-CommerceWebApi.props
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.E-CommerceWebApi.props
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\obj\Debug\net7.0\staticwebassets.pack.json
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\obj\Debug\net7.0\staticwebassets.build.json
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\obj\Debug\net7.0\staticwebassets.development.json
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\obj\Debug\net7.0\scopedcss\bundle\E-CommerceWebApi.styles.css
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\obj\Debug\net7.0\E-CommerceWebApi.csproj.CopyComplete
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\obj\Debug\net7.0\E-CommerceWebApi.dll
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\obj\Debug\net7.0\refint\E-CommerceWebApi.dll
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\obj\Debug\net7.0\E-CommerceWebApi.pdb
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\obj\Debug\net7.0\E-CommerceWebApi.genruntimeconfig.cache
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\obj\Debug\net7.0\ref\E-CommerceWebApi.dll
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\BouncyCastle.Cryptography.dll
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\MailKit.dll
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\MimeKit.dll
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\NETCore.MailKit.dll
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\System.Security.Cryptography.Pkcs.dll
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Security.Cryptography.Pkcs.dll
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\AspNetCoreRateLimit.dll
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\bin\Debug\net7.0\Newtonsoft.Json.dll
-D:\.NET Core\Asp.Net Core Web API\E-CommerceWebApi\E-CommerceWebApi\obj\Debug\net7.0\E-CommerceWebApi.sourcelink.json
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/appsettings.Development.json
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/appsettings.json
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/E-CommerceWebApi.staticwebassets.runtime.json
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/E-CommerceWebApi.exe
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/E-CommerceWebApi.deps.json
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/E-CommerceWebApi.runtimeconfig.json
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/E-CommerceWebApi.dll
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/E-CommerceWebApi.pdb
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Azure.Core.dll
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Azure.Identity.dll
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Humanizer.dll
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Microsoft.AspNetCore.OpenApi.dll
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Microsoft.Bcl.AsyncInterfaces.dll
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Microsoft.Data.SqlClient.dll
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Design.dll
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.dll
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Microsoft.Extensions.Identity.Core.dll
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Microsoft.Extensions.Identity.Stores.dll
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Microsoft.Extensions.Options.dll
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Microsoft.Identity.Client.dll
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Microsoft.Identity.Client.Extensions.Msal.dll
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Microsoft.IdentityModel.Abstractions.dll
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Microsoft.IdentityModel.JsonWebTokens.dll
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Microsoft.IdentityModel.Logging.dll
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.dll
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Microsoft.IdentityModel.Tokens.dll
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Microsoft.OpenApi.dll
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Microsoft.SqlServer.Server.dll
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Microsoft.Win32.SystemEvents.dll
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Mono.TextTemplating.dll
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/System.CodeDom.dll
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/System.Configuration.ConfigurationManager.dll
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/System.Drawing.Common.dll
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/System.IdentityModel.Tokens.Jwt.dll
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/System.Memory.Data.dll
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/System.Runtime.Caching.dll
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/System.Security.Cryptography.ProtectedData.dll
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/System.Security.Permissions.dll
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/System.Windows.Extensions.dll
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/obj/Debug/net7.0/E-CommerceWebApi.csproj.AssemblyReference.cache
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/obj/Debug/net7.0/E-CommerceWebApi.GeneratedMSBuildEditorConfig.editorconfig
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/obj/Debug/net7.0/E-CommerceWebApi.AssemblyInfoInputs.cache
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/obj/Debug/net7.0/E-CommerceWebApi.AssemblyInfo.cs
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/obj/Debug/net7.0/E-CommerceWebApi.csproj.CoreCompileInputs.cache
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/obj/Debug/net7.0/E-CommerceWebApi.MvcApplicationPartsAssemblyInfo.cs
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/obj/Debug/net7.0/E-CommerceWebApi.MvcApplicationPartsAssemblyInfo.cache
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/obj/Debug/net7.0/staticwebassets/msbuild.E-CommerceWebApi.Microsoft.AspNetCore.StaticWebAssets.props
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/obj/Debug/net7.0/staticwebassets/msbuild.build.E-CommerceWebApi.props
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.E-CommerceWebApi.props
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.E-CommerceWebApi.props
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/obj/Debug/net7.0/staticwebassets.pack.json
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/obj/Debug/net7.0/staticwebassets.build.json
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/obj/Debug/net7.0/staticwebassets.development.json
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/obj/Debug/net7.0/scopedcss/bundle/E-CommerceWebApi.styles.css
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/obj/Debug/net7.0/E-CommerceWebApi.csproj.CopyComplete
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/obj/Debug/net7.0/E-CommerceWebApi.dll
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/obj/Debug/net7.0/refint/E-CommerceWebApi.dll
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/obj/Debug/net7.0/E-CommerceWebApi.pdb
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/obj/Debug/net7.0/E-CommerceWebApi.genruntimeconfig.cache
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/obj/Debug/net7.0/ref/E-CommerceWebApi.dll
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/BouncyCastle.Cryptography.dll
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/MailKit.dll
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/MimeKit.dll
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/NETCore.MailKit.dll
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/System.Security.Cryptography.Pkcs.dll
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/runtimes/win/lib/net7.0/System.Security.Cryptography.Pkcs.dll
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/AspNetCoreRateLimit.dll
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Newtonsoft.Json.dll
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/obj/Debug/net7.0/E-CommerceWebApi.sourcelink.json
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Stripe.net.dll
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
+D:/.NET Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/appsettings.Development.json
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/appsettings.json
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/E-CommerceWebApi.staticwebassets.runtime.json
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/E-CommerceWebApi
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/E-CommerceWebApi.deps.json
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/E-CommerceWebApi.runtimeconfig.json
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/E-CommerceWebApi.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/E-CommerceWebApi.pdb
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/AspNetCoreRateLimit.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Azure.Core.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Azure.Identity.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/BouncyCastle.Cryptography.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Humanizer.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/MailKit.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Microsoft.AspNetCore.OpenApi.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Microsoft.Bcl.AsyncInterfaces.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Microsoft.Data.SqlClient.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Design.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Microsoft.Extensions.Identity.Core.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Microsoft.Extensions.Identity.Stores.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Microsoft.Extensions.Options.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Microsoft.Identity.Client.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Microsoft.Identity.Client.Extensions.Msal.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Microsoft.IdentityModel.Abstractions.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Microsoft.IdentityModel.Logging.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Microsoft.IdentityModel.Tokens.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Microsoft.OpenApi.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Microsoft.SqlServer.Server.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Microsoft.Win32.SystemEvents.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/MimeKit.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Mono.TextTemplating.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/NETCore.MailKit.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Newtonsoft.Json.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Stripe.net.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/System.CodeDom.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/System.Configuration.ConfigurationManager.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/System.Drawing.Common.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/System.IdentityModel.Tokens.Jwt.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/System.Memory.Data.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/System.Runtime.Caching.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/System.Security.Cryptography.Pkcs.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/System.Security.Cryptography.ProtectedData.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/System.Security.Permissions.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/System.Windows.Extensions.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/runtimes/win/lib/net7.0/System.Security.Cryptography.Pkcs.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/obj/Debug/net7.0/E-CommerceWebApi.csproj.AssemblyReference.cache
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/obj/Debug/net7.0/E-CommerceWebApi.GeneratedMSBuildEditorConfig.editorconfig
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/obj/Debug/net7.0/E-CommerceWebApi.AssemblyInfoInputs.cache
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/obj/Debug/net7.0/E-CommerceWebApi.AssemblyInfo.cs
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/obj/Debug/net7.0/E-CommerceWebApi.csproj.CoreCompileInputs.cache
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/obj/Debug/net7.0/E-CommerceWebApi.MvcApplicationPartsAssemblyInfo.cs
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/obj/Debug/net7.0/E-CommerceWebApi.MvcApplicationPartsAssemblyInfo.cache
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/obj/Debug/net7.0/E-CommerceWebApi.sourcelink.json
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/obj/Debug/net7.0/staticwebassets.build.json
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/obj/Debug/net7.0/staticwebassets.development.json
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/obj/Debug/net7.0/staticwebassets/msbuild.E-CommerceWebApi.Microsoft.AspNetCore.StaticWebAssets.props
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/obj/Debug/net7.0/staticwebassets/msbuild.build.E-CommerceWebApi.props
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.E-CommerceWebApi.props
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.E-CommerceWebApi.props
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/obj/Debug/net7.0/staticwebassets.pack.json
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/obj/Debug/net7.0/scopedcss/bundle/E-CommerceWebApi.styles.css
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/obj/Debug/net7.0/E-CommerceWebApi.csproj.CopyComplete
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/obj/Debug/net7.0/E-CommerceWebApi.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/obj/Debug/net7.0/refint/E-CommerceWebApi.dll
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/obj/Debug/net7.0/E-CommerceWebApi.pdb
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/obj/Debug/net7.0/E-CommerceWebApi.genruntimeconfig.cache
+/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/obj/Debug/net7.0/ref/E-CommerceWebApi.dll

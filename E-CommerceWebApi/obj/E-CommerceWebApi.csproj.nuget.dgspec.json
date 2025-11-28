@@ -1,36 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "D:\\.NET Core\\Asp.Net Core Web API\\E-CommerceWebApi\\E-CommerceWebApi\\E-CommerceWebApi.csproj": {}
+    "D:\\Dot_NET_Core\\Asp.Net Core Web API\\E-CommerceWebApi\\E-CommerceWebApi\\E-CommerceWebApi.csproj": {}
   },
   "projects": {
-    "D:\\.NET Core\\Asp.Net Core Web API\\E-CommerceWebApi\\E-CommerceWebApi\\E-CommerceWebApi.csproj": {
+    "D:\\Dot_NET_Core\\Asp.Net Core Web API\\E-CommerceWebApi\\E-CommerceWebApi\\E-CommerceWebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.NET Core\\Asp.Net Core Web API\\E-CommerceWebApi\\E-CommerceWebApi\\E-CommerceWebApi.csproj",
+        "projectUniqueName": "D:\\Dot_NET_Core\\Asp.Net Core Web API\\E-CommerceWebApi\\E-CommerceWebApi\\E-CommerceWebApi.csproj",
         "projectName": "E-CommerceWebApi",
-        "projectPath": "D:\\.NET Core\\Asp.Net Core Web API\\E-CommerceWebApi\\E-CommerceWebApi\\E-CommerceWebApi.csproj",
-        "packagesPath": "C:\\Users\\Ahmed\\.nuget\\packages\\",
-        "outputPath": "D:\\.NET Core\\Asp.Net Core Web API\\E-CommerceWebApi\\E-CommerceWebApi\\obj\\",
+        "projectPath": "D:\\Dot_NET_Core\\Asp.Net Core Web API\\E-CommerceWebApi\\E-CommerceWebApi\\E-CommerceWebApi.csproj",
+        "packagesPath": "C:\\Users\\kasper\\.nuget\\packages\\",
+        "outputPath": "D:\\Dot_NET_Core\\Asp.Net Core Web API\\E-CommerceWebApi\\E-CommerceWebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Ahmed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kasper\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -38,11 +38,17 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "AspNetCoreRateLimit": {
               "target": "Package",
@@ -50,25 +56,31 @@
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[7.0.4, )"
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
@@ -76,11 +88,19 @@
             },
             "MimeKit": {
               "target": "Package",
-              "version": "[4.3.0, )"
+              "version": "[4.12.0, )"
             },
             "NETCore.MailKit": {
               "target": "Package",
               "version": "[2.1.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[44.10.0-beta.1, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -106,7 +126,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

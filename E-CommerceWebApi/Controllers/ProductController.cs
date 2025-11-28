@@ -10,18 +10,19 @@ namespace E_CommerceWebApi.Controllers
 {
     [Route("api/[controller]")]
 	[ApiController]
-	[Authorize]
+	//[Authorize]
 	public class ProductController : ControllerBase
 	{
 		private readonly IProductRepository repository;
 
 		public ProductDto Product { get; }
 
-		public ProductController(IProductRepository repository)
+        public ProductController(IProductRepository repository)
 		{
 			this.repository = repository;
 		}
-		[HttpGet]
+
+        [HttpGet]
 		public IActionResult GetAll()
 		{
 			return Ok(repository.GetAll());
@@ -41,8 +42,9 @@ namespace E_CommerceWebApi.Controllers
 			{
 				Product prod = MapToProduct(product);
 				repository.Add(prod);
-				string actionLink = Url.Link("ProducttDetailsRoute", new { id = product.Id });
-				return Created(actionLink, product); 
+				//string actionLink = Url.Link("ProducttDetailsRoute", new { id = product.Id });
+				//return Created(actionLink, product);
+                return CreatedAtAction("GetById", new{ id=product.Id}, product); 
 			}
 			else
 			{

@@ -1,0 +1,20 @@
+{
+  "Version": 1,
+  "Hash": "lnJXmC6rBh46odschyi+wAMxCuVXVsK2BhwON2VVxfE=",
+  "Source": "E-CommerceWebApi",
+  "BasePath": "_content/E-CommerceWebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "E-CommerceWebApi\\wwwroot",
+      "Source": "E-CommerceWebApi",
+      "ContentRoot": "D:\\Dot_NET_Core\\Asp.Net Core Web API\\E-CommerceWebApi\\E-CommerceWebApi\\wwwroot\\",
+      "BasePath": "_content/E-CommerceWebApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [],
+  "Endpoints": []
+}

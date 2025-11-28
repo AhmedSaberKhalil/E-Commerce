@@ -105,7 +105,7 @@ namespace E_CommerceWebApi.Migrations
 
                     b.HasIndex("ProductId");
 
-                    b.ToTable("CartItem");
+                    b.ToTable("CartItem", (string)null);
                 });
 
             modelBuilder.Entity("E_CommerceWebApi.Models.Product", b =>
@@ -129,7 +129,7 @@ namespace E_CommerceWebApi.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Product");
+                    b.ToTable("Product", (string)null);
                 });
 
             modelBuilder.Entity("E_CommerceWebApi.Models.Review", b =>
@@ -155,7 +155,7 @@ namespace E_CommerceWebApi.Migrations
 
                     b.HasIndex("ProductId");
 
-                    b.ToTable("Review");
+                    b.ToTable("Review", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>

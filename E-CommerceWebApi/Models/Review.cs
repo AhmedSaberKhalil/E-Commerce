@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace E_CommerceWebApi.Models
 {
@@ -8,8 +9,12 @@ namespace E_CommerceWebApi.Models
 
 		[ForeignKey("Product")]
 		public int ProductId { get; set; }
-		public string ReviewName { get; set; }
-		public string Content { get; set; }
+        [Required(ErrorMessage = "Review name is required.")]
+        [StringLength(15, ErrorMessage = "Review name cannot exceed 15 characters.")]
+        public string ReviewName { get; set; }
+        [Required(ErrorMessage = "Content is required.")]
+        [StringLength(20, ErrorMessage = "Content cannot exceed 20 characters.")]
+        public string Content { get; set; }
 
 		public Product Product { get; set; }
 	}

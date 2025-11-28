@@ -2,6 +2,7 @@
 using E_CommerceWebApi.Models;
 using E_CommerceWebApi.Repository;
 using Microsoft.EntityFrameworkCore;
+using Stripe.Services;
 
 namespace E_CommerceWebApi.Service
 {
@@ -16,6 +17,18 @@ namespace E_CommerceWebApi.Service
 
 		Product IProductRepository.GetProducttWithReviews(int ProductId)
 		{
+			//return context.Product.Where(p => p.Id == ProductId).SelectMany(p =>
+			//{
+			//	return new ProductNameWithAllReviews
+			//	{
+			//		Id = p.Id,
+			//		ProductName = p.Name,
+			//		ReviewsList = p.Reviews.c
+
+
+
+			//	}}).Where(p => p.Id == ProductId);
+
 			return context.Product.Include(p => p.Reviews).FirstOrDefault(p => p.Id == ProductId);
 		}
 	}

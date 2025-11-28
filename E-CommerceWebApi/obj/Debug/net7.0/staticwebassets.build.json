@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "U10mrDn3SSQrRCgujaUxqUgK97+wKvn518cyHQuMrPM=",
+  "Hash": "VvHri7uJBVgzwmRaxASvyYBgF9CYEfvFwqsUBXPvF8w=",
   "Source": "E-CommerceWebApi",
   "BasePath": "_content/E-CommerceWebApi",
   "Mode": "Default",
@@ -8,9 +8,9 @@
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "E-CommerceWebApi\\wwwroot",
+      "Name": "E-CommerceWebApi/wwwroot",
       "Source": "E-CommerceWebApi",
-      "ContentRoot": "D:\\.NET Core\\Asp.Net Core Web API\\E-CommerceWebApi\\E-CommerceWebApi\\wwwroot\\",
+      "ContentRoot": "/media/ahmed/Ahmed/NET_Core/Asp.Net Core Web API/E-CommerceWebApi/E-CommerceWebApi/wwwroot/",
       "BasePath": "_content/E-CommerceWebApi",
       "Pattern": "**"
     }
