@@ -86,22 +86,22 @@ namespace E_CommerceWebApi
 
             var connectionString =
                 $"Server={host};Port=3306;Database={db};User Id={user};Password={pass};";
-
-            builder.Services.AddDbContext<ECEntity>(options =>
-                options.UseSqlServer(connectionString));
-
-
-			//builder.Services.AddDbContext<ECEntity>(options =>
-			//    options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
+          
+			builder.Services.AddDbContext<ECEntity>(options =>
+                options.UseNpgsql(connectionString));
 
 
+            //builder.Services.AddDbContext<ECEntity>(options =>
+            //    options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
 
-			//builder.Services.AddDbContext<ECEntity>(options =>
-			//{
 
-			//	options.UseSqlServer(builder.Configuration.GetConnectionString("cs"));
-			//});
-			builder.Services.AddScoped<IProductRepository, E_CommerceWebApi.Service.ProductService>();
+
+            //builder.Services.AddDbContext<ECEntity>(options =>
+            //{
+
+            //	options.UseSqlServer(builder.Configuration.GetConnectionString("cs"));
+            //});
+            builder.Services.AddScoped<IProductRepository, E_CommerceWebApi.Service.ProductService>();
 	
 			builder.Services.AddScoped<IRepository<Models.Review>, Repository<Models.Review>>();
 			builder.Services.AddScoped<IRepository<CartItem>, Repository<CartItem>>();
@@ -163,16 +163,22 @@ namespace E_CommerceWebApi
 			var app = builder.Build();
 
             // Add migrate command support (initContainer will call this)
-            if (args.Contains("migrate"))
+            //if (args.Contains("migrate"))
+            //{
+            //    using var scope = app.Services.CreateScope();
+            //    var dbContext = scope.ServiceProvider.GetRequiredService<ECEntity>();
+            //    dbContext.Database.Migrate();
+            //    Console.WriteLine("Database Migration Applied Successfully.");
+            //    return; 
+            //}
+
+            if (args.Contains("--migrate"))
             {
                 using var scope = app.Services.CreateScope();
                 var dbContext = scope.ServiceProvider.GetRequiredService<ECEntity>();
                 dbContext.Database.Migrate();
-                Console.WriteLine("Database Migration Applied Successfully.");
-                return; 
+                return;
             }
-
-
             // Configure the HTTP request pipeline.
             //	if (app.Environment.IsDevelopment())
             //	{
