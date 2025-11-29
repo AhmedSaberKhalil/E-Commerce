@@ -72,21 +72,32 @@ namespace E_CommerceWebApi
 			// Add services to the container.
 
 			builder.Services.AddControllers();
-            // connect to RDS db
-            var host = Environment.GetEnvironmentVariable("DB_HOST");
-            var user = Environment.GetEnvironmentVariable("DB_USER");
-            var pass = Environment.GetEnvironmentVariable("DB_PASS");
-            var db = Environment.GetEnvironmentVariable("DB_NAME");
+            //connect to RDS db
+
+            //var host = Environment.GetEnvironmentVariable("DB_HOST");
+            //var user = Environment.GetEnvironmentVariable("DB_USER");
+            //var pass = Environment.GetEnvironmentVariable("DB_PASS");
+            //var db = Environment.GetEnvironmentVariable("DB_NAME");
+
+            var host = "terraform-20251128142804141300000001.czemksi8irdq.eu-north-1.rds.amazonaws.com";
+            var user = "admin";
+            var pass = "password123";
+            var db = "mydatabase";
 
             var connectionString =
                 $"Server={host};Port=3306;Database={db};User Id={user};Password={pass};";
 
             builder.Services.AddDbContext<ECEntity>(options =>
-                options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
+                options.UseSqlServer(connectionString));
+
+
+			//builder.Services.AddDbContext<ECEntity>(options =>
+			//    options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
 
 
 
-   //         builder.Services.AddDbContext<ECEntity>(options => {
+			//builder.Services.AddDbContext<ECEntity>(options =>
+			//{
 
 			//	options.UseSqlServer(builder.Configuration.GetConnectionString("cs"));
 			//});
