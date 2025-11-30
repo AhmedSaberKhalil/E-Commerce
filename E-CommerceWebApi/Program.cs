@@ -81,11 +81,11 @@ namespace E_CommerceWebApi
 
 
             var connectionString =
-                $"Host={host};Database={db};Username={user};Password={pass};";
+                $"Host={host};Port=5432;Database={db};Username={user};Password={pass};";
 
 
             builder.Services.AddDbContext<ECEntity>(options =>
-                options.UseNpgsql(connectionString));
+                options.UseSqlServer(connectionString));
 
 
             //builder.Services.AddDbContext<ECEntity>(options =>
