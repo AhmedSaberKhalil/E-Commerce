@@ -13,6 +13,7 @@ using Microsoft.AspNetCore.RateLimiting;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Stripe;
@@ -73,31 +74,35 @@ namespace E_CommerceWebApi
 			// Add services to the container.
 
 			builder.Services.AddControllers();
-			//connect to RDS db
+            //connect to RDS db
 
-			var host = Environment.GetEnvironmentVariable("DB_HOST");
-			var user = Environment.GetEnvironmentVariable("DB_USER");
-			var pass = Environment.GetEnvironmentVariable("DB_PASS");
-			var db = Environment.GetEnvironmentVariable("DB_NAME");
+            var host = Environment.GetEnvironmentVariable("DB_HOST");
+            var user = Environment.GetEnvironmentVariable("DB_USER");
+            var pass = Environment.GetEnvironmentVariable("DB_PASS");
+            var db = Environment.GetEnvironmentVariable("DB_NAME");
+
+            // Connect to master to ensure database exists
             var masterConnString = $"Server={host},1433;Database=master;User Id={user};Password={pass};TrustServerCertificate=True;";
 
-            // Connect to master
             using (var masterConn = new SqlConnection(masterConnString))
             {
                 masterConn.Open();
-                var cmd = masterConn.CreateCommand();
-                cmd.CommandText = "IF DB_ID('MyDatabase') IS NULL CREATE DATABASE MyDatabase;";
+                using var cmd = masterConn.CreateCommand();
+                cmd.CommandText = $"IF DB_ID('{db}') IS NULL CREATE DATABASE [{db}];";
                 cmd.ExecuteNonQuery();
             }
 
-            // Now connect to actual my DB
+            // EF Core connection string
             var efConnString = $"Server={host},1433;Database={db};User Id={user};Password={pass};TrustServerCertificate=True;";
 
-          
-
-
+            // Register DbContext in DI
             builder.Services.AddDbContext<ECEntity>(options =>
                 options.UseSqlServer(efConnString));
+
+            // Apply migrations programmatically
+            using var scope = builder.Services.BuildServiceProvider().CreateScope();
+            var context = scope.ServiceProvider.GetRequiredService<ECEntity>();
+            context.Database.Migrate();
 
 
             //builder.Services.AddDbContext<ECEntity>(options =>
@@ -171,13 +176,13 @@ namespace E_CommerceWebApi
 
 			var app = builder.Build();
 
-            if (args.Contains("migrate"))
-            {
-                using var scope = app.Services.CreateScope();
-                var dbContext = scope.ServiceProvider.GetRequiredService<ECEntity>();
-                dbContext.Database.Migrate();
-                return;
-            }
+            //if (args.Contains("migrate"))
+            //{
+            //    using var scope = app.Services.CreateScope();
+            //    var dbContext = scope.ServiceProvider.GetRequiredService<ECEntity>();
+            //    dbContext.Database.Migrate();
+            //    return;
+            //}
             // Configure the HTTP request pipeline.
             //	if (app.Environment.IsDevelopment())
             //	{
