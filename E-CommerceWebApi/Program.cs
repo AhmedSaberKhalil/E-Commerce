@@ -72,22 +72,19 @@ namespace E_CommerceWebApi
 			// Add services to the container.
 
 			builder.Services.AddControllers();
-            //connect to RDS db
+			//connect to RDS db
 
-            //var host = Environment.GetEnvironmentVariable("DB_HOST");
-            //var user = Environment.GetEnvironmentVariable("DB_USER");
-            //var pass = Environment.GetEnvironmentVariable("DB_PASS");
-            //var db = Environment.GetEnvironmentVariable("DB_NAME");
+			var host = Environment.GetEnvironmentVariable("DB_HOST");
+			var user = Environment.GetEnvironmentVariable("DB_USER");
+			var pass = Environment.GetEnvironmentVariable("DB_PASS");
+			var db = Environment.GetEnvironmentVariable("DB_NAME");
 
-            var host = "terraform-20251128142804141300000001.czemksi8irdq.eu-north-1.rds.amazonaws.com";
-            var user = "admin";
-            var pass = "password123";
-            var db = "mydatabase";
 
             var connectionString =
-                $"Server={host};Port=3306;Database={db};User Id={user};Password={pass};";
-          
-			builder.Services.AddDbContext<ECEntity>(options =>
+                $"Host={host};Database={db};Username={user};Password={pass};";
+
+
+            builder.Services.AddDbContext<ECEntity>(options =>
                 options.UseNpgsql(connectionString));
 
 
@@ -162,17 +159,7 @@ namespace E_CommerceWebApi
 
 			var app = builder.Build();
 
-            // Add migrate command support (initContainer will call this)
-            //if (args.Contains("migrate"))
-            //{
-            //    using var scope = app.Services.CreateScope();
-            //    var dbContext = scope.ServiceProvider.GetRequiredService<ECEntity>();
-            //    dbContext.Database.Migrate();
-            //    Console.WriteLine("Database Migration Applied Successfully.");
-            //    return; 
-            //}
-
-            if (args.Contains("--migrate"))
+            if (args.Contains("migrate"))
             {
                 using var scope = app.Services.CreateScope();
                 var dbContext = scope.ServiceProvider.GetRequiredService<ECEntity>();
