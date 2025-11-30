@@ -10,6 +10,7 @@ using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.RateLimiting;
+using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
@@ -78,14 +79,25 @@ namespace E_CommerceWebApi
 			var user = Environment.GetEnvironmentVariable("DB_USER");
 			var pass = Environment.GetEnvironmentVariable("DB_PASS");
 			var db = Environment.GetEnvironmentVariable("DB_NAME");
+            var masterConnString = $"Server={host},1433;Database=master;User Id={user};Password={pass};TrustServerCertificate=True;";
 
+            // Connect to master
+            using (var masterConn = new SqlConnection(masterConnString))
+            {
+                masterConn.Open();
+                var cmd = masterConn.CreateCommand();
+                cmd.CommandText = "IF DB_ID('MyDatabase') IS NULL CREATE DATABASE MyDatabase;";
+                cmd.ExecuteNonQuery();
+            }
 
-            var connectionString =
-                $"Host={host};Port=5432;Database={db};Username={user};Password={pass};";
+            // Now connect to actual my DB
+            var efConnString = $"Server={host},1433;Database={db};User Id={user};Password={pass};TrustServerCertificate=True;";
+
+          
 
 
             builder.Services.AddDbContext<ECEntity>(options =>
-                options.UseSqlServer(connectionString));
+                options.UseSqlServer(efConnString));
 
 
             //builder.Services.AddDbContext<ECEntity>(options =>
