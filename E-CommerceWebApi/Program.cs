@@ -76,29 +76,32 @@ namespace E_CommerceWebApi
 			builder.Services.AddControllers();
             //connect to RDS db
 
-            var host = Environment.GetEnvironmentVariable("DB_HOST");
-            var user = Environment.GetEnvironmentVariable("DB_USER");
-            var pass = Environment.GetEnvironmentVariable("DB_PASS");
-            var db = Environment.GetEnvironmentVariable("DB_NAME");
+            //var host = Environment.GetEnvironmentVariable("DB_HOST");
+            //var user = Environment.GetEnvironmentVariable("DB_USER");
+            //var pass = Environment.GetEnvironmentVariable("DB_PASS");
+            //var db = Environment.GetEnvironmentVariable("DB_NAME");
 
-            // Connect to master to ensure database exists
-            var masterConnString = $"Server={host},1433;Database=master;User Id={user};Password={pass};TrustServerCertificate=True;";
+            //// Connect to master to ensure database exists
+            //var masterConnString = $"Server={host},1433;Database=master;User Id={user};Password={pass};TrustServerCertificate=True;";
 
-            using (var masterConn = new SqlConnection(masterConnString))
-            {
-                masterConn.Open();
-                using var cmd = masterConn.CreateCommand();
-                cmd.CommandText = $"IF DB_ID('{db}') IS NULL CREATE DATABASE [{db}];";
-                cmd.ExecuteNonQuery();
-            }
+            //using (var masterConn = new SqlConnection(masterConnString))
+            //{
+            //    masterConn.Open();
+            //    using var cmd = masterConn.CreateCommand();
+            //    cmd.CommandText = $"IF DB_ID('{db}') IS NULL CREATE DATABASE [{db}];";
+            //    cmd.ExecuteNonQuery();
+            //}
 
-            // EF Core connection string
-            var efConnString = $"Server={host},1433;Database={db};User Id={user};Password={pass};TrustServerCertificate=True;";
+            //// EF Core connection string
+            //var efConnString = $"Server={host},1433;Database={db};User Id={user};Password={pass};TrustServerCertificate=True;";
 
             // Register DbContext in DI
-            builder.Services.AddDbContext<ECEntity>(options =>
-                options.UseSqlServer(efConnString));
+            //builder.Services.AddDbContext<ECEntity>(options =>
+            //    options.UseSqlServer(efConnString));
+            var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 
+            builder.Services.AddDbContext<ECEntity>(options =>
+                options.UseSqlServer(connectionString));
             // Apply migrations programmatically
             using var scope = builder.Services.BuildServiceProvider().CreateScope();
             var context = scope.ServiceProvider.GetRequiredService<ECEntity>();
